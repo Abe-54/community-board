@@ -1,0 +1,78 @@
+.Card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  text-wrap: wrap;
+  overflow: hidden;
+}
+
+.Card__Top {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: gray;
+}
+
+.Team_Logo {
+  height: 100px;
+  width: 100px;
+}
+
+.Team {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Versus {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.Opponent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343231;
+}
+
+.Card__Bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.Date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343231;
+}
+
+button {
+  background-color: #ff5910;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-transform: uppercase;
+}

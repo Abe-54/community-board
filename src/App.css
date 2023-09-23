@@ -1,0 +1,40 @@
+#root {
+  margin: 0;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #ff5910;
+}
+
+body {
+  background-color: #002d72;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.App {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.Container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  max-width: 80rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-wrap: wrap;
+  line-height: 1.1;
+  text-shadow: black 1px 0 10px;
+}
